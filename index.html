@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/style.scss">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#!" class="site__logo">
+            <img src="./img/svg/logo.svg" alt="site logo">
+        </a>
+
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#!" class="nav__link">
+                    <svg width="40" height="27" fill="none"><path d="M38.333 0H6.111a1.68 1.68 0 0 0-1.667 1.688v.563H1.667C.746 2.25 0 3.006 0 3.938v19.688C0 25.489 1.492 27 3.333 27h35A1.68 1.68 0 0 0 40 25.313V1.688A1.68 1.68 0 0 0 38.333 0zM2.222 23.625V4.5h2.222v19.125a1.12 1.12 0 0 1-1.111 1.125 1.12 1.12 0 0 1-1.111-1.125zm35.556 1.125H6.476c.126-.361.191-.742.19-1.125V2.25h31.111v22.5zM9.722 18h11.667a.84.84 0 0 0 .833-.844V5.344a.84.84 0 0 0-.833-.844H9.722a.84.84 0 0 0-.833.844v11.812a.84.84 0 0 0 .833.844zm1.389-11.25H20v9h-8.889v-9zM8.889 21.656v-.562a.84.84 0 0 1 .833-.844h11.667a.84.84 0 0 1 .833.844v.562a.84.84 0 0 1-.833.844H9.722a.84.84 0 0 1-.833-.844zm15.556 0v-.562a.84.84 0 0 1 .833-.844h9.444a.84.84 0 0 1 .833.844v.562a.84.84 0 0 1-.833.844h-9.444a.84.84 0 0 1-.833-.844zm0-4.5v-.562a.84.84 0 0 1 .833-.844h9.444a.84.84 0 0 1 .833.844v.562a.84.84 0 0 1-.833.844h-9.444a.84.84 0 0 1-.833-.844zm0-9v-.562a.84.84 0 0 1 .833-.844h9.444a.84.84 0 0 1 .833.844v.563a.84.84 0 0 1-.833.844h-9.444a.84.84 0 0 1-.833-.844zm0 4.5v-.562a.84.84 0 0 1 .833-.844h9.444a.84.84 0 0 1 .833.844v.562a.84.84 0 0 1-.833.844h-9.444a.84.84 0 0 1-.833-.844z" fill="currentColor"/></svg>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#!" class="nav__link">
+                    <svg width="40" height="32" fill="none"><path d="M35.758 0h-.011c-1.672.008-10.052.613-15.247 3.34-.281.147-.717.147-.999 0C14.305.613 5.925.008 4.253 0h-.011C1.903 0 0 1.838 0 4.098v20.604c0 2.181 1.765 3.978 4.017 4.09 2.415.122 8.474.574 12.631 2.109a3.22 3.22 0 0 0 1.129.21h4.444c.39 0 .763-.075 1.129-.21 4.158-1.535 10.217-1.987 12.633-2.109 2.251-.113 4.015-1.908 4.015-4.09V4.098C40 1.838 38.097 0 35.758 0zM18.889 27.847c0 .598-.496 1.051-1.06 1.051a1.07 1.07 0 0 1-.374-.068c-4.337-1.612-10.347-2.106-13.327-2.258-1.069-.053-1.906-.875-1.906-1.87V4.098c0-1.034.907-1.875 2.02-1.875 1.339.007 8.504.513 13.342 2.659.782.347 1.294 1.094 1.296 1.933l.009 6.967v14.065zm18.889-3.145c0 .995-.837 1.817-1.906 1.87-2.98.151-8.99.646-13.327 2.258a1.07 1.07 0 0 1-.374.068c-.563 0-1.06-.453-1.06-1.051V13.782l.009-6.967c.001-.84.514-1.586 1.296-1.933 4.838-2.147 12.003-2.652 13.342-2.659 1.113 0 2.02.841 2.02 1.875v20.604h.001z" fill="currentColor"/></svg>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#!" class="nav__link">
+                    <svg width="40" height="46" fill="none"><path d="M28.571 31.539h-.42c-1.086 0-2.143.259-3.17.607-3.232 1.096-6.736 1.096-9.968 0-1.025-.348-2.08-.605-3.162-.605h-.423a11.43 11.43 0 0 0-8.081 3.347A11.43 11.43 0 0 0 0 42.967c0 .758.301 1.484.837 2.02s1.263.837 2.02.837h34.286c.758 0 1.484-.301 2.02-.837s.837-1.263.837-2.02a11.43 11.43 0 0 0-11.429-11.429zM2.857 42.967a8.58 8.58 0 0 1 8.571-8.571h.423c.618 0 1.332.145 2.246.455a18.37 18.37 0 0 0 11.8 0c.921-.312 1.637-.456 2.254-.456h.42a8.58 8.58 0 0 1 8.571 8.571l-34.286.002zM4.286 20.11a1.43 1.43 0 0 0 1.429-1.429v-1.429C5.714 9.376 12.123 2.967 20 2.967s14.286 6.409 14.286 14.286v1.429a7.15 7.15 0 0 1-7.143 7.143h-2.857c0-.758-.301-1.485-.837-2.02s-1.263-.837-2.02-.837h-2.857c-.758 0-1.485.301-2.02.837s-.837 1.263-.837 2.02.301 1.485.837 2.02 1.263.837 2.02.837h8.572a10.01 10.01 0 0 0 7.067-2.933c1.875-1.875 2.929-4.416 2.933-7.067v-1.429C37.143 7.799 29.454.11 20 .11S2.857 7.799 2.857 17.253v1.429a1.43 1.43 0 0 0 1.429 1.429zM20 8.681c1.655-.007 3.277.467 4.668 1.365s2.49 2.181 3.164 3.693.894 3.187.632 4.822-.992 3.158-2.104 4.384c0 .008.012.013.016.021h.767c.725-.002 1.437-.187 2.071-.54s1.167-.861 1.55-1.476c.397-1.166.665-2.396.665-3.698A11.43 11.43 0 0 0 20 5.824 11.43 11.43 0 0 0 8.571 17.253c0 3.609 1.705 6.786 4.317 8.881-.005-.105-.031-.204-.031-.31.006-1.006.282-1.993.797-2.857-1.118-1.225-1.854-2.749-2.12-4.385s-.048-3.315.625-4.831 1.773-2.802 3.165-3.702S18.342 8.673 20 8.681z" fill="currentColor"/></svg>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#!" class="nav__link">
+                    <svg width="40" height="47" fill="none"><path d="M38.929 15.106c.589 0 1.071-.482 1.071-1.071v-3.571c0-.589-.482-1.071-1.071-1.071h-1.786V6.534A5.72 5.72 0 0 0 31.429.82H5.714A5.72 5.72 0 0 0 0 6.534V40.82a5.72 5.72 0 0 0 5.714 5.714h25.714a5.72 5.72 0 0 0 5.714-5.714v-2.857h1.786c.589 0 1.071-.482 1.071-1.072V33.32c0-.589-.482-1.071-1.071-1.071h-1.786v-5.714h1.786c.589 0 1.071-.482 1.071-1.071v-3.572c0-.589-.482-1.071-1.071-1.071h-1.786v-5.714h1.786zM34.286 40.82c0 1.571-1.286 2.857-2.857 2.857H5.714c-1.571 0-2.857-1.286-2.857-2.857V6.534c0-1.571 1.286-2.857 2.857-2.857h25.714c1.571 0 2.857 1.286 2.857 2.857V40.82zM18.571 25.106c3.947 0 7.143-3.196 7.143-7.143s-3.196-7.143-7.143-7.143-7.143 3.196-7.143 7.143 3.196 7.143 7.143 7.143zm0-11.428a4.29 4.29 0 0 1 4.286 4.286 4.29 4.29 0 0 1-4.286 4.286 4.29 4.29 0 0 1-4.286-4.286 4.29 4.29 0 0 1 4.286-4.286zm4.179 12.857c-1.741 0-2.179.625-4.179.625s-2.437-.625-4.179-.625c-1.893 0-3.732.839-4.804 2.446-.643.955-1.018 2.107-1.018 3.348v3.491c0 .393.321.714.714.714h1.429c.393 0 .714-.321.714-.714v-3.491c0-.625.188-1.232.536-1.75.5-.741 1.411-1.178 2.438-1.178 1.107 0 1.857.625 4.179.625 2.313 0 3.063-.625 4.179-.625 1.027 0 1.938.446 2.438 1.178.348.518.536 1.125.536 1.75v3.491c0 .393.322.714.714.714h1.429c.393 0 .714-.321.714-.714v-3.491c0-1.241-.375-2.393-1.018-3.348-1.098-1.607-2.937-2.446-4.821-2.446z" fill="currentColor"/></svg>
+                </a>
+            </li>
+        </ul>
+
+        <span class="navbar__user__img">
+            <img src="./img/jpg/sidebar-img.jpg" alt="user img">
+        </span>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="hero">
+                <div class="hero__content">
+                    <h1 class="hero__content__title">
+                        Welcome to All Marketing
+                    </h1>
+
+                    <p class="hero__content__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                    </p>
+
+                    <a href="#!" class="hero__content__link">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="cart__box">
+
+                <ul class="cart__list">
+                    <li class="cart__item">
+                        <h3 class="cart__title">
+                            Мощная аналитика
+                        </h3>
+
+
+                        <a href="#!" class="cart__link">
+                            Подробнее
+                        </a>
+                    </li>
+
+                    <li class="cart__item">
+                        <h3 class="cart__title">
+                            Ведение документов
+                        </h3>
+
+
+                        <a href="#!" class="cart__link">
+                            Подробнее
+                        </a>
+                    </li>
+
+                    <li class="cart__item">
+                        <h3 class="cart__title">
+                            Международные решения
+                        </h3>
+
+
+                        <a href="#!" class="cart__link">
+                            Подробнее
+                        </a>
+                    </li>
+
+                    <li class="cart__item">
+                        <h3 class="cart__title">
+                            Бизнес стратегии
+                        </h3>
+
+
+                        <a href="#!" class="cart__link">
+                            Подробнее
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="footer__section">
+        <div class="container">
+            <div class="info__wrapper">
+                <div class="site__info">
+                    <p class="site__info__list__caption">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </p>
+    
+                    <ul class="site__info__list">
+                        <li class="site__info__item">
+                            <p class="site__info__context">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam velit aliquam ultrices amet aliquam gravida. Egestas ut pellentesque fames aliquam aenean. Sem id pellentesque etiam diam dolor, pellentesque commodo. Enim donec quam convallis eu etiam ultrices pretium ut. Faucibus adipiscing neque massa vel posuere potenti odio natoque velit. Suscipit eu, quam ipsum, vulputate convallis at ultricies elit. Fermentum fames nunc neque vulputate dui. Nisl semper iaculis iaculis lectus velit ut.
+                            </p>
+                        </li>
+                        <li class="site__info__item">
+                            <p class="site__info__context">
+                                Arcu laoreet odio interdum odio ac mi. Curabitur turpis lorem sed justo at nulla massa tristique. At aliquet quam nec ullamcorper pellentesque gravida tempor morbi. At fusce sagittis egestas lobortis mauris. Aliquam pharetra purus volutpat donec nibh mus netus. At tristique pretium, fringilla tincidunt consectetur nunc. Rhoncus id dui, ac a mauris. Quis pretium, viverra non eu lacus, elit feugiat. Nisi, duis egestas accumsan cras sit lacus, sit. Elementum neque lectus faucibus vitae, metus odio at amet. Vel pellentesque adipiscing ultrices tristique vitae.
+                            </p>
+                        </li>
+                        <li class="site__info__item">
+                            <p class="site__info__context">
+                                Lacus, convallis vitae tempor viverra dictum suspendisse consequat. Odio duis quam lobortis risus interdum leo, leo erat. Enim, quis ipsum aenean quis duis tincidunt risus. Ac commodo eu sed quis egestas posuere. Sit mi enim consectetur scelerisque imperdiet cras amet. Pellentesque laoreet volutpat ultrices nisl lobortis arcu pellentesque. Elementum neque lectus faucibus vitae, metus odio at amet. Vel pellentesque adipiscing ultrices tristique vitae.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="members__info">
+                    <p class="members__info__list__caption">
+                        Lorem ipsum dolor 
+                    </p>
+
+
+                    <ul class="members__info__list">
+                        <li class="members__info__item">
+                            <p class="members__info__name">
+                                Онлайн приемная
+                            </p>
+
+                            <p class="members__info__name--desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </li>
+
+                        <li class="members__info__item">
+                            <p class="members__info__name">
+                                Тренинги
+                            </p>
+
+                            <p class="members__info__name--desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </li>
+
+                        <li class="members__info__item">
+                            <p class="members__info__name">
+                                Решение проблем
+                            </p>
+
+                            <p class="members__info__name--desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </li>
+
+                        <li class="members__info__item">
+                            <p class="members__info__name">
+                                Консультация
+                            </p>
+
+                            <p class="members__info__name--desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footnav">
+                <h2 class="footnav__caption">
+                    All Marketing
+                </h2>
+
+                <ul class="address__list">
+                    <li class="address__item">
+                        <a href="tel:+998996060164" class="address__link">+998 99 606 01 64</a>
+                    </li>
+                    <li class="address__item">
+                        <a href="mailto:mirzaakhmedovbr@gmail.com" class="address__link">mirzaakhmedovbr@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

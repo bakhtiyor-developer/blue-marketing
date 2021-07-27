@@ -1,0 +1,102 @@
+$primary-color: #3FA5D5;
+$gray-color: #E5E5E5;
+$light-color: #fff;
+$light-black-color: #323232;
+$bold-text-color: #464748;
+$medium-text-color: #545454;
+$light-text-color: #696868;
+$svg-color: #939393;
+
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+        url('../fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBold.woff2') format('woff2'),
+        url('../fonts/Rubik-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin breakpoint-down($size) {
+    @media (max-width: $size) {
+        @content;
+    }
+}
+
+@mixin flex($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin flexDirection($direction, $align, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $align;
+    align-items: $justify;
+}
+
+
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik';
+    background-color: $gray-color;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@include breakpoint-down(1150px) {
+    .container {
+        width: 100%;
+    }
+}
